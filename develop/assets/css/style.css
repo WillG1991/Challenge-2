@@ -1,0 +1,40 @@
+.nav {
+  align-items:flex-end;
+
+}
+
+.nav {
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+
+.header
+background-image: url(".jessica.jpg");
+   
+
+}
+
+.hero {
+border: #39a6b2;
+
+}
+
+.blue2 {
+    color:aqua;
+}
+
+.intro
+{
+font-size: 20px;
+  color:blue;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border: 3px solid;
+}
+
+.body {
+  color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
