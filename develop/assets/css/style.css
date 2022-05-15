@@ -52,6 +52,7 @@ header h1 {
   display: inline;
 }
 
+
 /* HEADER STYLING END */
 
 footer {
@@ -86,9 +87,9 @@ section {
 }
 
 .hero {
-  background-image: url(../images/Jessica.jpg);
+  background-image: url(../images/dots.jpg);
   height: 600px;
-  background-size: cover;
+  background-size:contain;
   background-position: center;
   position:relative;
 }
@@ -158,28 +159,79 @@ size: small;
 
 .intro {
   text-align: center;
+  box-shadow: 5px 10px 15px black;
+  border:  15px;
 }
 
-.intro h2 {
+
+
+
+
+.steps {
+  text-align: center;
+  background: black;
+  text-align: center;
+}
+
+.intro h3 {
   font-size: 55px;
-  color: darkslategray;
+  color: white;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
-  border-color: black;
+  border-color: white;
+  justify-content: row;
+}
+
+.intro div {
+  margin-bottom: 80px;
+}
+
+.intro img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.intro h3 {
+  color:white;
+  font-size: 46px;
+  margin-top: 10px;
+  border-radius: 0%;
+  border-color:aliceblue;
+}
+
+.intro span {
+  font-size: 38px;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
   display: inline-block;
+  border-bottom: 3px solid;
 }
 
-.intro p {
-  line-height: 1.7;
-  color: darkslategray;
-  width: 80%;
-  font-size: 20px;
+
+
+.steps {
+  text-align: center;
+  background: darkslategray;
+}
+
+.steps ul li {
+background-color: darkslategray;
+display: grid;
+grid-template-rows: auto;
+}
+
+.intro h4 {
+  width: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 
-
-/* STOPPED AT SECTION 1.3.6,
-WEEK 2 Challenge  &  going through code again
-*/
