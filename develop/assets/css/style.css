@@ -445,3 +445,14 @@ section {
   }
   
   }
+
+  @media screen and (max-width: 610px) {
+    .intro h3 {
+      padding: 10px;
+    }
+
+    img {
+      width: 100% !important;
+    }
+    
+ }
